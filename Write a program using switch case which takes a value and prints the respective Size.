@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class main{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        int s = sc.nextInt();
+        if(s <= 29){
+            System.out.println("Small");
+        }
+        else if(s <= 37){
+            System.out.println("Medium");
+        }
+        else if(s <= 41){
+            System.out.println("Large");
+        }
+        else if(s >=42){
+            System.out.println("XLarge");
+        }
+        }
+    }
